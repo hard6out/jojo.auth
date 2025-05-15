@@ -1,0 +1,4 @@
+{
+  "forwardPorts": [5000],
+  "postStartCommand": "npm run dev"
+}
