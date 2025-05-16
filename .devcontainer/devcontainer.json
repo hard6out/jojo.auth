@@ -1,4 +1,7 @@
 {
   "forwardPorts": [5000],
-  "postStartCommand": "npm run dev"
+  "portsAttributes": {
+    "5000": { "label": "API", "visibility": "public" }
+  },
+  "postStartCommand": "HOST=0.0.0.0 PORT=5000 npm run dev"
 }
